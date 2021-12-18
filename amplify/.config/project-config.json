@@ -1,0 +1,17 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "codenamesayan",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "Documents/codename-sayan/sourcecode-sayan",
+      "DistributionDir": "Documents/codename-sayan/distrib-sayan",
+      "BuildCommand": "npm run-script build",
+      "StartCommand": "npm run-script start"
+    }
+  }
+}
